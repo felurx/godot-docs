@@ -115,7 +115,7 @@ specifically add :ref:`class_EditorProperty`-based controls.
     # my_inspector_plugin.gd
     extends EditorInspectorPlugin
 
-    var RandomIntEditor = preload("res://addons/my_inspector_plugin/random_int_editor.gd")
+    const RandomIntEditor = preload("res://addons/my_inspector_plugin/random_int_editor.gd")
 
 
     func _can_handle(object):
